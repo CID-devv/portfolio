@@ -10,13 +10,24 @@ body {
 }
 
 .header__title {
-	font-size: 100px;
-	margin-bottom: 30px;
+	margin: 0 0 10px 0;
+	max-width: 700px;
+	font-size: 60px;
+	color:chocolate;
+	display: block;
+	font-family: 'Playfair Display', serif;
 }
 
-.header.header__subtitle {
-	font-size: 40px;
-	
+.description {
+	max-width: 900px;
+	font-size: 30px;
+}
+
+.avatar {
+	width: 250px;
+	height: auto;
+	border-radius: 30px;
+	margin-top: 30px;
 }
 
 @media (max-width: 900px) {
@@ -34,15 +45,6 @@ span.header__title--small {
 	}
 }
 
-.header__title--small {
-	font-size: 50px;
-	color:chocolate;
-	display: block;
-	margin-bottom: 20px;;
-	font-family: 'Playfair Display', serif;
-	/* margin-top: 100px; */
-}
-
 a {
 	display: flex;
 	text-decoration: none;
@@ -55,8 +57,8 @@ a {
 	background-color: chocolate;
 	color:bisque;
 	text-decoration: none;
-	padding: 10px 35px;
-	margin-top: 60px;
+	padding: 10px 30px;
+	margin-top: 80px;
 	border-radius: 5px;
 }
 
@@ -70,7 +72,7 @@ cursor: pointer;
 margin-top: 30px;
 color: chocolate;
 border: 2px solid white;
-padding: 10px 35px;
+padding: 10px 30px;
 border-radius: 5px;
 
 }
@@ -86,10 +88,8 @@ border-radius: 5px;
 	height: auto;
 }
 
-
-
 .mb {
-	 margin-bottom:200px; 
+	margin-bottom:200px; 
 }
 
 .envelope-imoji {
@@ -127,10 +127,6 @@ border-radius: 5px;
 	}
 }
 
-/* .footer{
-	color: rgba(0, 81, 255, 0.98);
-} */
-
 .footer i{
 	padding: 0 150px;
 	font-size: 30px;
@@ -139,7 +135,6 @@ border-radius: 5px;
 @media (max-width: 900px) {
 	.footer i {
 		padding: 0 20px 30px;
-
 	}
 }
 
